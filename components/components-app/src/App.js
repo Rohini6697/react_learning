@@ -3,6 +3,7 @@ import './App.css';
 import Counter from './components/functional_components';
 import Home from './components/Home';
 import Profile from './components/Profile';
+import UsestateLearning from './components/UsestateLearning'
 
 function App() {
   const users = {
@@ -15,6 +16,7 @@ function App() {
       <Counter/>
       <Home username = {users.name}/>
       <Profile details = {users}/>
+      <UsestateLearning/>
     </div>
   );
 }
